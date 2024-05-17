@@ -1,0 +1,23 @@
+id:
+            firstname:
+            lastname:
+            business_name:
+            business_email_verified_at:null
+            business_email:
+            business_phone:
+            business_industry:
+            password:
+            business_country:
+            business_state:
+            business_city:
+            business_address:
+            business_postal_code:
+            status:'active'
+
+            firstname: Vee
+lastname:Larry
+business_name:Homex Hub
+business_email_verified_at:null
+business_email:egeregav@gmail.com
+password:$2y$12$s2nndL.Yr3AiTIGsGvGILOyPim5hB1c99elkH3WI3wfqFIGnMm2/a
+status:active

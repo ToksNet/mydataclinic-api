@@ -1,0 +1,1 @@
+[17-Apr-2024 12:48:13 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.27. in /home/mydahzgv/public_html/analytics/vendor/composer/platform_check.php on line 24
