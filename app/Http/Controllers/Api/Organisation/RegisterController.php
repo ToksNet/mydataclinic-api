@@ -30,7 +30,7 @@ class RegisterController extends Controller
             ]
             );
 
-            if($validatedData->fails()){
+            if($validatedData->fails()){ 
                 $response = collect([
                 'message' => 'organisation account creation failed',
                 'status' => 'error',

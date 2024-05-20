@@ -7,8 +7,10 @@ use App\Http\Controllers\Api\Data;
 use App\Http\Controllers\API\Organisation\ForgotPasswordController;
 use App\Http\Controllers\API\Organisation\ResetPasswordController;
 use App\Http\Controllers\API\Organisation\VerifyPasswordController;
-use App\Http\Controllers\API\Organisation\PasswordController;
+use App\Http\Controllers\API\Organisation\PasswordController; 
 use App\Http\Controllers\API\Organisation\DataCollectionPasswordController;
+use App\Http\Controllers\API\Organisation\DataCollectionProfileController;
+use App\Http\Controllers\Api\Organisation\ChangeEmailController;
 
 // use App\Http\Controllers\API\Organisation\VerificationController;
 
@@ -35,11 +37,13 @@ Route::prefix('organisation')->group(function() {
     Route::post('logout', [Organisation\LogoutController::class, 'logout'])->name('organisation.logout');
     Route::put('update/{id}', [Organisation\ProfileController::class, 'update'])->name('organisation.update');
     Route::get('verify/{hash}', [Organisation\EmailVerificationController::class, 'store'])->name('organisation.verify');
+    Route::post('change-email', [Organisation\ChangeEmailController::class, 'update']); //Newly Added Controller for changing Email
     Route::get('resend/verification/{business_email}', [Organisation\RegisterController::class, 'resend']);
     Route::post('forgot-password', [ForgotPasswordController::class, 'sendResetLink']);
     Route::POST('reset-password/{id}', [ResetPasswordController::class, 'reset'])->name('organisation.reset-password');
     Route::get('verify-token/{hash}', [VerifyPasswordController::class, 'store'])->name('organisation.verify-token');
     Route::post('change-password/{id}', [PasswordController::class, 'update'])->name('organisation.change-password');
+    
     
     
     Route::post('data/collection/new-collection', [DataCollection\RegisterController::class, 'store']);
