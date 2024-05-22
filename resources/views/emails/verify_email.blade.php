@@ -4,24 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Email Message</title>
-    <!-- Include Tailwind CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
   </head>
-  <body class="bg-white">
-    <div class="bg-yellow-400 py-4 text-center">
-      <img src="{{asset('/image/Vector.png')}}" alt="My Data Clinic" class="mx-auto h-12" />
-      <h1 class="text-dark text-6xl font-bold mt-2">My Data Clinic</h1>
+  <body style="background-color: #ffffff; margin: 0; padding: 0;">
+    <div style="background-color: #fbbf24; padding: 16px; text-align: center;">
+      <img src="{{asset('/image/Vector.png')}}" alt="My Data Clinic" style="margin: 0 auto; height: 48px;" />
+      <h1 style="color: #000000; font-size: 48px; font-weight: bold; margin-top: 8px;">My Data Clinic</h1>
     </div>
 
-    <div class="container mx-auto py-8 px-4">
-      <h2 class="text-4xl text-center font-bold mb-4">
+    <div style="max-width: 600px; margin: 32px auto; padding: 16px;">
+      <h2 style="font-size: 32px; text-align: center; font-weight: bold; margin-bottom: 16px;">
         Confirm Your Email <br />
         Address
       </h2>
-      <p class="mb-4">
+      <p style="margin-bottom: 16px;">
         Thank you for creating an account with us! To ensure that you receive
         important updates and notifications, we need to confirm your email
         address.
@@ -41,37 +36,47 @@
       </p>
       <a
         href="{{ $verificationUrl }}"
-        class="block bg-yellow-400 text-dark text-center py-2 rounded mx-auto max-w-xs"
+        style="
+          display: block;
+          background-color: #fbbf24;
+          color: #000000;
+          text-align: center;
+          padding: 8px 0;
+          border-radius: 4px;
+          margin: 0 auto;
+          max-width: 200px;
+          text-decoration: none;
+        "
         >Verify Your Email Address</a
       >
     </div>
 
-    <footer class="bg-gray-200 py-4 text-center">
-      <div class="flex justify-center items-center mb-2">
+    <footer style="background-color: #e5e7eb; padding: 16px; text-align: center;">
+      <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 8px;">
         <!-- Replace the placeholder URLs with the correct URLs for your social icons -->
         <a href="#">
-          <img src="{{asset('/image/Twitter.png')}}" alt="Twitter" class="w-8 h-8 mx-2" />
+          <img src="{{asset('/image/Twitter.png')}}" alt="Twitter" style="width: 32px; height: 32px; margin: 0 8px;" />
         </a>
         <a href="#">
-          <img src="{{asset('/image/Facebook.png')}}" alt="facebook" class="w-8 h-8 mx-2" />
+          <img src="{{asset('/image/Facebook.png')}}" alt="facebook" style="width: 32px; height: 32px; margin: 0 8px;" />
         </a>
         <a href="#">
           <img
             src="{{asset('/image/Social Icons.png')}}"
             alt="Instagram"
-            class="w-8 h-8 mx-2"
+            style="width: 32px; height: 32px; margin: 0 8px;"
           />
         </a>
       </div>
-      <p class="text-gray-600 mb-2">© 2024 My Data Clinic</p>
-      <p class="text-gray-600 mb-2">
+      <p style="color: #4b5563; margin-bottom: 8px;">© 2024 My Data Clinic</p>
+      <p style="color: #4b5563; margin-bottom: 8px;">
         139 ST Dover Street, Boston Massachusetts. USA
       </p>
       <!-- Replace the placeholder URL with the correct URL for your additional image -->
       <img
         src="{{asset('/image/Group 5.png')}}"
         alt="Additional Image"
-        class="mx-auto h-16"
+        style="margin: 0 auto; height: 64px;"
       />
     </footer>
   </body>
