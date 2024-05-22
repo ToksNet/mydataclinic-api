@@ -39,7 +39,8 @@ class RegisterController extends Controller
             // trim spaces and replace dashes with underscores
             $slug = str_replace(' ', '_', trim($request->collection_name));
             $slug = str_replace('-', '_', $slug);
-    
+            $slug = $slug.'_'.$request->organisation_id;
+            
             $dataCollection = User::firstOrCreate(
                 ['collection_name' => $request->collection_name,],
                 [
