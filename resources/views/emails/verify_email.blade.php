@@ -11,6 +11,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000&family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap" rel="stylesheet" />
 </head>
 
 <body style="background-color: #ffffff; margin: 0; padding: 0">
@@ -29,8 +32,8 @@
         <h1 style="
               color: #000000;
               font-size: 48px;
+              font-family: 'Anton', sans-serif;
               font-weight: 1000;
-              font-family: 'DM Sans', sans-serif;
               margin: 0;
             ">
           MyDataClinic
@@ -112,8 +115,15 @@
             <img src="{{asset('/image/Social Icons.png')}}" alt="Instagram" style="width: 32px; height: 32px; margin: 0 8px" />
           </a>
         </div>
-        <p style="color: #4b5563; margin-bottom: 8px">
-          © 2024 My Data Clinic
+        <p style="
+              color: #4b5563;
+              margin-bottom: 8px;
+              font-weight: bold;
+              color: #000000;
+              font-size: 15px;
+              font-family: 'DM Sans', sans-serif;
+            ">
+          MyDataclinic.com
         </p>
         <p style="color: #4b5563; margin-bottom: 8px">
           139 ST Dover Street, Boston Massachusetts. USA
