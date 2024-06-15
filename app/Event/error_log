@@ -1,0 +1,2 @@
+[09-Jun-2024 08:07:48 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Events\Dispatchable" not found in /home/mydahzgv/public_html/analytics/app/Event/Registered.php on line 13
+[09-Jun-2024 13:55:29 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Events\Dispatchable" not found in /home/mydahzgv/public_html/analytics/app/Event/Registered.php on line 13

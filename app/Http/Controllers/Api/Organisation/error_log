@@ -1,0 +1,44 @@
+[10-Jun-2024 20:02:36 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/ChangeEmailController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/ChangeEmailController.php on line 12
+[10-Jun-2024 20:02:39 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/EmailVerificationController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/EmailVerificationController.php on line 9
+[10-Jun-2024 20:02:42 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/ForgotPasswordController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/ForgotPasswordController.php on line 16
+[10-Jun-2024 20:02:45 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/LoginController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/LoginController.php on line 11
+[10-Jun-2024 20:02:49 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/LogoutController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/LogoutController.php on line 8
+[10-Jun-2024 20:02:53 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/PasswordController.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/PasswordController.php on line 17
+[10-Jun-2024 20:02:57 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/ProfileController.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/ProfileController.php on line 14
+[10-Jun-2024 20:03:00 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/RegisterController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/RegisterController.php on line 15
+[10-Jun-2024 20:03:02 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/ResetPasswordController.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/ResetPasswordController.php on line 23
+[10-Jun-2024 20:03:07 UTC] PHP Fatal error:  Uncaught Error: Class "Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/VerificationController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/VerificationController.php on line 9
+[10-Jun-2024 20:03:09 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/VerifyPasswordController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Api/Organisation/VerifyPasswordController.php on line 12

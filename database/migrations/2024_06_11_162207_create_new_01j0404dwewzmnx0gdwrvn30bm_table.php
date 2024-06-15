@@ -11,14 +11,20 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('collection', function (Blueprint $table) {
+        Schema::create('new_01j0404dwewzmnx0gdwrvn30bm', function (Blueprint $table) {
             $table->ulid('id')->primary();
              
-            $table->LongText('name');
+            $table->string('name')->nullable();
              
-            $table->integer('index');
+            $table->integer('age_')->nullable();
              
-            $table->LongText('date');
+            $table->string('dob')->nullable();
+             
+            $table->string('date')->nullable();
+             
+            $table->string('country')->nullable();
+             
+            $table->string('end_date')->nullable();
                         $table->timestamps();
         });
     }
@@ -28,6 +34,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('collection');
+        Schema::dropIfExists('new_01j0404dwewzmnx0gdwrvn30bm');
     }
 };

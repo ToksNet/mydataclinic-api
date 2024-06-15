@@ -22,7 +22,7 @@ class RegisterController extends Controller
                 'organisation_id' => ['bail', 'required', 'string', 'min:20'],
                 'collection_name' => ['bail', 'required', 'string', 'min:3'],
                 'collection_description' => ['bail', 'required', 'string', 'min:3'],
-                'collection_email' => ['bail', 'required', 'string', 'email'],
+                'collection_email' => ['bail', 'required', 'string', 'email', 'unique:'.User::class],
                 'password' => ['bail', 'required', 'string', 'confirmed', Password::min(8)->mixedCase()->symbols()->numbers()],
             ]);
 

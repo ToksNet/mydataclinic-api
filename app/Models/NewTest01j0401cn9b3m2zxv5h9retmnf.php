@@ -8,12 +8,12 @@ use Illuminate\Database\Eloquent\Concerns\HasUlids;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Collection2 extends Model
+class NewTest01j0401cn9b3m2zxv5h9retmnf extends Model
 {
     use HasApiTokens, HasFactory, HasUlids;
 
 
-    protected $table = 'collection_2';
+    protected $table = 'New_test_01j0401cn9b3m2zxv5h9retmnf';
 
     /**
      * The attributes that are mass assignable.
@@ -23,9 +23,12 @@ class Collection2 extends Model
 
      
     protected $fillable = [
-                'name',
-                'index',
-                'date',
+                'first_name',
+                'last_name',
+                'bankcode',
+                'account_number',
+                'amount',
+                'remark',
             ];
 
    

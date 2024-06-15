@@ -1,0 +1,16 @@
+[07-Jun-2024 16:24:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/mydahzgv/public_html/analytics/bootstrap/app.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/bootstrap/app.php on line 15
+[07-Jun-2024 16:24:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/mydahzgv/public_html/analytics/bootstrap/app.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/bootstrap/app.php on line 15
+[09-Jun-2024 00:39:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/mydahzgv/public_html/analytics/bootstrap/app.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/bootstrap/app.php on line 15
+[09-Jun-2024 00:45:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/mydahzgv/public_html/analytics/bootstrap/app.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/bootstrap/app.php on line 15

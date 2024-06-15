@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('{{ $tableName }}', function (Blueprint $table) {
             $table->ulid('id')->primary();
             @foreach ($schema as $columName => $dataType) 
-            $table->{{ $dataType }}('{{ strtolower($columName)}}');
+            $table->{{ $dataType }}('{{ strtolower($columName)}}')->nullable();
             @endforeach
             $table->timestamps();
         });

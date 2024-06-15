@@ -1,0 +1,16 @@
+[07-Jun-2024 16:24:27 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/mydahzgv/public_html/analytics/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/tests/Feature/ExampleTest.php on line 8
+[07-Jun-2024 16:24:28 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/mydahzgv/public_html/analytics/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/tests/Feature/ExampleTest.php on line 8
+[09-Jun-2024 08:12:30 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/mydahzgv/public_html/analytics/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/tests/Feature/ExampleTest.php on line 8
+[09-Jun-2024 08:13:09 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/mydahzgv/public_html/analytics/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/tests/Feature/ExampleTest.php on line 8

@@ -1,0 +1,24 @@
+[09-Jun-2024 12:49:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\ResourceCollection" not found in /home/mydahzgv/public_html/analytics/app/Http/Resources/DataCollection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Resources/DataCollection.php on line 8
+[09-Jun-2024 12:49:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/mydahzgv/public_html/analytics/app/Http/Resources/DataUserResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Resources/DataUserResource.php on line 8
+[09-Jun-2024 12:49:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/mydahzgv/public_html/analytics/app/Http/Resources/OrganisationResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Resources/OrganisationResource.php on line 8
+[10-Jun-2024 11:08:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\ResourceCollection" not found in /home/mydahzgv/public_html/analytics/app/Http/Resources/DataCollection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Resources/DataCollection.php on line 8
+[10-Jun-2024 11:08:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/mydahzgv/public_html/analytics/app/Http/Resources/DataUserResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Resources/DataUserResource.php on line 8
+[10-Jun-2024 11:08:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/mydahzgv/public_html/analytics/app/Http/Resources/OrganisationResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Resources/OrganisationResource.php on line 8

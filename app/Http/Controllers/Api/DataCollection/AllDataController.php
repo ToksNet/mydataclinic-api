@@ -5,6 +5,7 @@ namespace App\Http\Controllers\API\DataCollection;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Http\Resources\DataUserResource;
 
 class AllDataController extends Controller
 {

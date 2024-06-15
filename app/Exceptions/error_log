@@ -1,0 +1,8 @@
+[09-Jun-2024 08:08:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/mydahzgv/public_html/analytics/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Exceptions/Handler.php on line 8
+[09-Jun-2024 13:55:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/mydahzgv/public_html/analytics/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Exceptions/Handler.php on line 8

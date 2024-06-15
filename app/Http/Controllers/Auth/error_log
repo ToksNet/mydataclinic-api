@@ -1,0 +1,44 @@
+[10-Jun-2024 08:31:11 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/AuthenticatedSessionController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/AuthenticatedSessionController.php on line 11
+[10-Jun-2024 08:31:13 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/ConfirmPasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/ConfirmPasswordController.php on line 8
+[10-Jun-2024 08:31:15 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/EmailVerificationNotificationController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/EmailVerificationNotificationController.php on line 11
+[10-Jun-2024 08:31:16 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/LoginController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/LoginController.php on line 8
+[10-Jun-2024 08:31:18 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/NewPasswordController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/NewPasswordController.php on line 15
+[10-Jun-2024 08:31:19 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/PasswordResetLinkController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/PasswordResetLinkController.php on line 11
+[10-Jun-2024 08:31:21 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/RegisterController.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/RegisterController.php on line 14
+[10-Jun-2024 08:31:23 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/RegisteredUserController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/RegisteredUserController.php on line 15
+[10-Jun-2024 08:31:25 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/ResetPasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/ResetPasswordController.php on line 8
+[10-Jun-2024 08:31:26 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/VerificationController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/VerificationController.php on line 11
+[10-Jun-2024 08:31:28 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/VerifyEmailController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Controllers/Auth/VerifyEmailController.php on line 13

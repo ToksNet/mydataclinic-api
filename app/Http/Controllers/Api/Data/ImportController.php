@@ -42,8 +42,22 @@ class ImportController extends Controller
 
                 // data for insert contains and array of arrays
                 //loop through each 
+                
                 foreach($dataForInsert as $singleDataInsert){
-                   $insertData = $modelCreated::create($singleDataInsert);
+                    
+                    try{
+                        $insertData = $modelCreated::create($singleDataInsert);
+                    }catch(\Exception $e){
+                        $response = collect([
+                        'message' => "could not insert row",
+                        'status' => 'errror',
+                        'errors' =>  $e->getMessage(),
+                        'lineError' =>  $singleDataInsert
+                       
+                        ]);
+                        return response()->json($response, 201);
+                    }
+                   
                 }
   
                 // The record was successfully entered
@@ -56,6 +70,7 @@ class ImportController extends Controller
                 $error = "Record insertion failed: " . $e->getMessage();
                 $status = 'error';
                 $message = 'data headers are not the same, you can create a data collection to save data or adjust data headers';
+               
             }
             
             // return the data from the collection
@@ -78,35 +93,47 @@ class ImportController extends Controller
             $dataToMatch = $data[2][$columName];
             // trying matching string data and getting suggested date types 
             // such as date, long text or single Characters
-            $datePattern = '/^\d{1,}\/\d{1,}\/\d{4}$/';
-            $dateTimePattern = '/^\d{1,}\/\d{1,}\/\d{4} \d{1,}:\d{1,}$/';
-            $dateTimeSecondsPattern = '/^\d{2}\/\d{2}\/\d{4} \d{1,}:\d{2}:\d{2}$/';
-            $dateTimePatternWithMediterran = '/^\d{2}\/\d{2}\/\d{4} \d{1,}:\d{2} \b{am|pm}$/';
-            $dateTimeSecondsPatternWithMediterran = '/^\d{2}\/\d{2}\/\d{4} \d{1,}:\d{2,}:\d{2,} \b{am|pm}$/';
+            $datePattern = '/^\d{4}\/\d{2}\/\d{2}$/';
+            $dateTimePattern = '/^\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}$/';
+            $dateTimeSecondsPattern = '/^\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}:\d{2}$/';
+            $dateTimePatternWithMediterran = '/^\d{4}\/\d{2}\/\d{2} \d{2}:\d{2} \b{am|pm}$/';
+            $dateTimeSecondsPatternWithMediterran = '/^\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}:\d{2} \b{am|pm}$/';
             $yearPattern = '/^\d{4}/';
-            $YearAndMonthPattern = '/^\d{1,}\/\d{4}/';
+            // $YearAndMonthPattern = '/^\d{4}\/\d{2}/';
             
-            if($headerRow[$columName] == 'string' && is_string($dataToMatch)){
+            if($headerRow[$columName] == 'string' || $headerRow[$columName] == 'date' || $headerRow[$columName] == 'dateTime' || $headerRow[$columName] == 'year' || gettype($dataToMatch) == 'string'){
                 if(Str::length($dataToMatch) > 254 ){
                     $dateType = 'LongText';
                 }else{
                     if(strtotime($dataToMatch) !== false){
-                        $dateType = 'dateTime';
-                        if(preg_match($dateTimePattern, $dataToMatch)){
-                          $dateType = 'dateTime';
-                        }else{
+                        
+                        // if(preg_match($dateTimePattern, $dataToMatch) || preg_match($dateTimeSecondsPatternWithMediterran, $dataToMatch) || preg_match($dateTimePatternWithMediterran, $dataToMatch) || preg_match($dateTimeSecondsPattern, $dataToMatch)){
+                        //   $dateType = 'dateTime';
+                        // }elseif(preg_match($datePattern, $dataToMatch)){
+                        //     $dateType = 'date';
+                        // }elseif(preg_match($yearPattern, $dataToMatch)){
+                        //      $dateType = 'year';
+                        // }else{
                             // match date
-                            $dateType = 'date';
-                        }
+                            $dateType = 'string';
+                        // }
+                        
                     }else{
-                        $dateType = 'LongText';
+                         $dateType = 'string';
                     }
                 }
             }elseif(is_bool($dataToMatch)){
                 $dateType = 'boolean';
             }elseif(is_array($dataToMatch)){
                 $dateType = 'json';
-            }elseif(is_numeric($dataToMatch)){
+                
+            }elseif(is_float($dataToMatch) || is_double($dataToMatch)){
+                $dateType = 'double';
+            
+            }elseif(is_int($dataToMatch) && strlen($dataToMatch) > 4 || $headerRow[$columName] == 'number' && strlen($dataToMatch) > 4){
+                $dateType = 'bigInteger';
+                
+            }elseif(is_int($dataToMatch)){
                 $dateType = 'integer';
             }else{
                 $dateType = 'LongText';
@@ -135,16 +162,23 @@ class ImportController extends Controller
 
         // migrate the table using artisan commands
         Artisan::call('migrate', ['--path' => 'database/migrations', '--force' => true]);
-      
-       foreach($dataForInsert as $singleDataInsert){
-            $insertData = $modelCreated::create($singleDataInsert);
-        }
+        $lineErros = [];
+           foreach($dataForInsert as $singleDataInsert){
+                $insertData = $modelCreated::create($singleDataInsert);
+                if(!$insertData){
+                   array_push($lineErros, $singleDataInsert);
+                    // Skip the rest of the loop and continue with the next iteration
+                    continue;
+                    
+                }
+            }
 
         // return the data from the collection
         $response = collect([
             'message' => 'Data stored sucessfully',
             'status' => 'success',
-            'errors' =>[],
+            'errors' => [],
+            'line_errors' => $lineErros,
             'data' => $dataForInsert,
         ]);
         return response()->json($response, 201); 
@@ -155,6 +189,15 @@ class ImportController extends Controller
                 $error = "Could not import data: " . $e->getMessage();
                 $status = 'error';
                 $message = 'data importation failed';
+                
+                // return the data from the collection
+                $response = collect([
+                    'message' => $message,
+                    'status' => $status,
+                    'errors' => $error,
+                    
+                ]);
+                return response()->json($response, 201); 
         }
         
        

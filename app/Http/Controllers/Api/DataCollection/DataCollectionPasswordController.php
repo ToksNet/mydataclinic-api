@@ -18,12 +18,12 @@ class DataCollectionPasswordController extends Controller
 {
     public function update(Request $request)
     {
-        try {
+        try { 
             // Validate user data
             $validatedData = Validator::make($request->all(), [
-                'organisation_id' => ['required', 'exists:organisations,id'],
-                'old_password' => ['bail', 'required', 'string'],
-                'password' => ['bail', 'required', 'string', 'confirmed',PasswordRules::min(8)->mixedCase()->numbers()->symbols()],
+                'collection_id' => ['bail', 'required', 'exists:users,id'],
+                'old_password' => ['bail', 'required', 'string', 'current_password'],
+                'password' => ['bail', 'required', 'string', 'confirmed', 'max:16',  PasswordRules::min(8)->mixedCase()->numbers()->symbols()],
             ]);
 
             if ($validatedData->fails()) {
@@ -36,25 +36,17 @@ class DataCollectionPasswordController extends Controller
             }
 
             // Retrieve the organisation based on the provided organisation_id
-            $organisation = Organisation::findOrFail($request->organisation_id);
 
 
              // Reset the password
-             $user = $organisation->user;
+             $user = User::findOrFail($request->collection_id);
              $user->password = bcrypt($request->password);
              $user->save();
-           
 
-              // Invalidate and delete existing user tokens
-              $organisation->tokens()->delete();
-
-              // Create a new token for the user
-              $token = $user->createToken('UserToken', ['dataCollection:create', 'dataCollection:delete', 'dataCollection:update'])->plainTextToken;
 
             $response = collect([
-                'message' => 'Collection password update successful',
+                'message' => 'Collection password update successfully',
                 'status' => 'success',
-                'token' => $token,
                 'errors' => [],
             ]);
             

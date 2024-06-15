@@ -1,0 +1,168 @@
+[07-Jun-2024 16:24:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/hashing.php on line 32
+[07-Jun-2024 16:24:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/hashing.php on line 32
+[07-Jun-2024 16:24:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/app.php on line 19
+[07-Jun-2024 16:24:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/app.php on line 19
+[07-Jun-2024 16:24:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/services.php on line 18
+[07-Jun-2024 16:24:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/services.php on line 18
+[07-Jun-2024 16:24:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/broadcasting.php on line 18
+[07-Jun-2024 16:24:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/broadcasting.php on line 18
+[07-Jun-2024 16:24:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/cache.php on line 18
+[07-Jun-2024 16:24:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/cache.php on line 18
+[07-Jun-2024 16:24:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/database.php on line 18
+[07-Jun-2024 16:24:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/database.php on line 18
+[07-Jun-2024 16:24:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/session.php on line 21
+[07-Jun-2024 16:24:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/session.php on line 21
+[09-Jun-2024 00:40:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/app.php on line 19
+[09-Jun-2024 00:40:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/broadcasting.php on line 18
+[09-Jun-2024 00:40:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/cache.php on line 18
+[09-Jun-2024 00:40:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/cors.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/cors.php on line 22
+[09-Jun-2024 00:40:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/database.php on line 18
+[09-Jun-2024 00:40:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/filesystems.php on line 16
+[09-Jun-2024 00:40:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/hashing.php on line 32
+[09-Jun-2024 00:40:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/logging.php on line 21
+[09-Jun-2024 00:40:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/mail.php on line 16
+[09-Jun-2024 00:40:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/queue.php on line 16
+[09-Jun-2024 00:40:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/sanctum.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/sanctum.php on line 16
+[09-Jun-2024 00:40:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/services.php on line 18
+[09-Jun-2024 00:40:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/session.php on line 21
+[09-Jun-2024 00:40:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/mydahzgv/public_html/analytics/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/view.php on line 17
+[09-Jun-2024 00:46:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/app.php on line 19
+[09-Jun-2024 00:46:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/broadcasting.php on line 18
+[09-Jun-2024 00:46:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/cache.php on line 18
+[09-Jun-2024 00:46:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/cors.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/cors.php on line 22
+[09-Jun-2024 00:46:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/database.php on line 18
+[09-Jun-2024 00:46:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/filesystems.php on line 16
+[09-Jun-2024 00:46:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/hashing.php on line 32
+[09-Jun-2024 00:46:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/logging.php on line 21
+[09-Jun-2024 00:46:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/mail.php on line 16
+[09-Jun-2024 00:46:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/queue.php on line 16
+[09-Jun-2024 00:46:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/sanctum.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/sanctum.php on line 16
+[09-Jun-2024 00:46:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/services.php on line 18
+[09-Jun-2024 00:46:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/mydahzgv/public_html/analytics/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/session.php on line 21
+[09-Jun-2024 00:46:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/mydahzgv/public_html/analytics/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/config/view.php on line 17

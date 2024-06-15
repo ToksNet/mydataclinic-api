@@ -1,0 +1,64 @@
+[09-Jun-2024 12:48:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/Authenticate.php on line 8
+[09-Jun-2024 12:48:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/EncryptCookies.php on line 7
+[09-Jun-2024 12:48:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[09-Jun-2024 12:48:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/TrimStrings.php on line 7
+[09-Jun-2024 12:48:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/TrustHosts.php on line 7
+[09-Jun-2024 12:48:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/TrustProxies.php on line 8
+[09-Jun-2024 12:48:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/ValidateSignature.php on line 7
+[09-Jun-2024 12:48:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[10-Jun-2024 11:07:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/Authenticate.php on line 8
+[10-Jun-2024 11:07:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/EncryptCookies.php on line 7
+[10-Jun-2024 11:08:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[10-Jun-2024 11:08:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/TrimStrings.php on line 7
+[10-Jun-2024 11:08:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/TrustHosts.php on line 7
+[10-Jun-2024 11:08:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/TrustProxies.php on line 8
+[10-Jun-2024 11:08:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/ValidateSignature.php on line 7
+[10-Jun-2024 11:08:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/mydahzgv/public_html/analytics/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mydahzgv/public_html/analytics/app/Http/Middleware/VerifyCsrfToken.php on line 7
